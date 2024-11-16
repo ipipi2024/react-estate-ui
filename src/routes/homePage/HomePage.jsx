@@ -1,20 +1,19 @@
 import SearchBar from "../../components/searchBar/SearchBar";
 import "./homepage.scss";
 
-const HomePage = () => {
+function HomePage() {
   return (
     <div className="homePage">
       <div className="textContainer">
         <div className="wrapper">
-          <h1 className="title">
-            Find Real Estate & Get Your Dream Place Estate
-          </h1>
+          <h1 className="title">Find Real Estate & Get Your Dream Place</h1>
           <p>
-            A cutting-edge real estate app connecting buyers, sellers, and
-            renters with detailed listings, virtual tours, and seamless search
-            features for a hassle-free property experience.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+            explicabo suscipit cum eius, iure est nulla animi consequatur
+            facilis id pariatur fugit quos laudantium temporibus dolor ea
+            repellat provident impedit!
           </p>
-          <SearchBar/>
+          <SearchBar />
           <div className="boxes">
             <div className="box">
               <h1>16+</h1>
@@ -32,10 +31,10 @@ const HomePage = () => {
         </div>
       </div>
       <div className="imgContainer">
-        <img src="/bg.png" />
+        <img src="/bg.png" alt="" />
       </div>
     </div>
   );
-};
+}
 
 export default HomePage;
